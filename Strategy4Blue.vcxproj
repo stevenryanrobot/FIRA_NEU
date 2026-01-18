@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{42B05474-9362-45D3-A4AF-0B0C26807298}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Strategy4Blue</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;STRATEGY4BLUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;STRATEGY4BLUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A.h" />
+    <ClInclude Include="angle_deg.h" />
+    <ClInclude Include="anyelse.h" />
+    <ClInclude Include="base.h" />
+    <ClInclude Include="circle_2d.h" />
+    <ClInclude Include="convex_hull.h" />
+    <ClInclude Include="field.h" />
+    <ClInclude Include="geometric.h" />
+    <ClInclude Include="line_2d.h" />
+    <ClInclude Include="logger.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="matrix_2d.h" />
+    <ClInclude Include="pid.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="polygon_2d.h" />
+    <ClInclude Include="ray_2d.h" />
+    <ClInclude Include="rect_2d.h" />
+    <ClInclude Include="region_2d.h" />
+    <ClInclude Include="sector_2d.h" />
+    <ClInclude Include="segment_2d.h" />
+    <ClInclude Include="sensor.h" />
+    <ClInclude Include="size_2d.h" />
+    <ClInclude Include="soccerplayer.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Strategy4Blue.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="triangle_2d.h" />
+    <ClInclude Include="vector_2d.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="angle_deg.cpp" />
+    <ClCompile Include="Angle_n.cpp" />
+    <ClCompile Include="anyelse.cpp" />
+    <ClCompile Include="attack_holy_diver.cpp" />
+    <ClCompile Include="catch_the_rainbow.cpp" />
+    <ClCompile Include="circle_2d.cpp" />
+    <ClCompile Include="convex_hull.cpp" />
+    <ClCompile Include="crash.cpp" />
+    <ClCompile Include="defenseplan.cpp" />
+    <ClCompile Include="defense_holy_diver.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="dribble.cpp" />
+    <ClCompile Include="field.cpp" />
+    <ClCompile Include="goalie.cpp" />
+    <ClCompile Include="goalie_holy_diver.cpp" />
+    <ClCompile Include="heading_position.cpp" />
+    <ClCompile Include="kick.cpp" />
+    <ClCompile Include="line_2d.cpp" />
+    <ClCompile Include="log.cpp" />
+    <ClCompile Include="man_on_the_silver_mountain.cpp" />
+    <ClCompile Include="matrix_2d.cpp" />
+    <ClCompile Include="planevaluation.cpp" />
+    <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="playon.cpp" />
+    <ClCompile Include="polygon_2d.cpp" />
+    <ClCompile Include="PositionAndStop.cpp" />
+    <ClCompile Include="positionplan.cpp" />
+    <ClCompile Include="predictball.cpp" />
+    <ClCompile Include="ray_2d.cpp" />
+    <ClCompile Include="rect_2d.cpp" />
+    <ClCompile Include="sector_2d.cpp" />
+    <ClCompile Include="segment_2d.cpp" />
+    <ClCompile Include="sensor.cpp" />
+    <ClCompile Include="shell_holy_diver.cpp" />
+    <ClCompile Include="soccerplayer.cpp" />
+    <ClCompile Include="specialarea.cpp" />
+    <ClCompile Include="spin.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Strategy4Blue.cpp" />
+    <ClCompile Include="ToPosition.cpp" />
+    <ClCompile Include="triangle_2d.cpp" />
+    <ClCompile Include="vector_2d.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

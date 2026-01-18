@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\utilization">
+      <UniqueIdentifier>{b574125d-066b-45c4-b919-56b1e6045017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\soccerplayer">
+      <UniqueIdentifier>{db46c63f-6443-4949-a7a1-6f7e37a1c3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\soccerplayer">
+      <UniqueIdentifier>{ea87ee95-86a6-4883-9fdc-f3e300beb660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\playerskill">
+      <UniqueIdentifier>{fa76b23f-a729-4814-b52e-9575f9f3182a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\geometric">
+      <UniqueIdentifier>{a469e5c0-685e-4b98-b4d2-d61397dad38e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utilization">
+      <UniqueIdentifier>{1683fb21-3fb9-43b9-a83f-865fd15cd1ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\geometric">
+      <UniqueIdentifier>{03c2c756-fe34-4445-9bfb-67ef21661b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\characters">
+      <UniqueIdentifier>{d92744a5-3ebb-4f97-9ec8-7df347e9c24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\plans">
+      <UniqueIdentifier>{20afd210-9b14-4d71-a95b-8900fb66b38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\log">
+      <UniqueIdentifier>{54ac72b9-a1ee-49ed-93ca-0d7974231cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\log">
+      <UniqueIdentifier>{40c90f48-4c68-4350-ac97-4be78b5ac266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\subsidiary">
+      <UniqueIdentifier>{202b7ca2-4707-40e7-a63d-2e20e5e376b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\specialsituation">
+      <UniqueIdentifier>{d47f812b-60a1-45ec-a4d9-1f38a26aaea8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy4Blue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>头文件\utilization</Filter>
+    </ClInclude>
+    <ClInclude Include="soccerplayer.h">
+      <Filter>头文件\soccerplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="pid.h">
+      <Filter>头文件\utilization</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_2d.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="angle_deg.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="geometric.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>头文件\utilization</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor.h">
+      <Filter>头文件\utilization</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>头文件\utilization</Filter>
+    </ClInclude>
+    <ClInclude Include="rect_2d.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_2d.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="convex_hull.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="line_2d.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix_2d.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon_2d.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="ray_2d.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="region_2d.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="sector_2d.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="segment_2d.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="size_2d.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle_2d.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="anyelse.h">
+      <Filter>头文件\geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="A.h">
+      <Filter>头文件\utilization</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>头文件\utilization</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy4Blue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="soccerplayer.cpp">
+      <Filter>源文件\soccerplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>源文件\utilization</Filter>
+    </ClCompile>
+    <ClCompile Include="sensor.cpp">
+      <Filter>源文件\utilization</Filter>
+    </ClCompile>
+    <ClCompile Include="angle_deg.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_2d.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="rect_2d.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="circle_2d.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="convex_hull.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="line_2d.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_2d.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon_2d.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="ray_2d.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="sector_2d.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="segment_2d.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle_2d.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="anyelse.cpp">
+      <Filter>源文件\geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="playon.cpp">
+      <Filter>源文件\soccerplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>源文件\utilization</Filter>
+    </ClCompile>
+    <ClCompile Include="goalie.cpp">
+      <Filter>源文件\characters</Filter>
+    </ClCompile>
+    <ClCompile Include="ToPosition.cpp">
+      <Filter>源文件\playerskill</Filter>
+    </ClCompile>
+    <ClCompile Include="kick.cpp">
+      <Filter>源文件\playerskill</Filter>
+    </ClCompile>
+    <ClCompile Include="spin.cpp">
+      <Filter>源文件\playerskill</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>源文件\characters</Filter>
+    </ClCompile>
+    <ClCompile Include="defenseplan.cpp">
+      <Filter>源文件\plans</Filter>
+    </ClCompile>
+    <ClCompile Include="positionplan.cpp">
+      <Filter>源文件\plans</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionAndStop.cpp">
+      <Filter>源文件\playerskill</Filter>
+    </ClCompile>
+    <ClCompile Include="Angle_n.cpp">
+      <Filter>源文件\playerskill</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>源文件\log</Filter>
+    </ClCompile>
+    <ClCompile Include="goalie_holy_diver.cpp">
+      <Filter>源文件\characters</Filter>
+    </ClCompile>
+    <ClCompile Include="planevaluation.cpp">
+      <Filter>源文件\plans</Filter>
+    </ClCompile>
+    <ClCompile Include="defense_holy_diver.cpp">
+      <Filter>源文件\plans</Filter>
+    </ClCompile>
+    <ClCompile Include="attack_holy_diver.cpp">
+      <Filter>源文件\plans</Filter>
+    </ClCompile>
+    <ClCompile Include="shell_holy_diver.cpp">
+      <Filter>源文件\plans</Filter>
+    </ClCompile>
+    <ClCompile Include="heading_position.cpp">
+      <Filter>源文件\playerskill</Filter>
+    </ClCompile>
+    <ClCompile Include="dribble.cpp">
+      <Filter>源文件\playerskill</Filter>
+    </ClCompile>
+    <ClCompile Include="predictball.cpp">
+      <Filter>源文件\subsidiary</Filter>
+    </ClCompile>
+    <ClCompile Include="crash.cpp">
+      <Filter>源文件\playerskill</Filter>
+    </ClCompile>
+    <ClCompile Include="specialarea.cpp">
+      <Filter>源文件\specialsituation</Filter>
+    </ClCompile>
+    <ClCompile Include="catch_the_rainbow.cpp">
+      <Filter>源文件\plans</Filter>
+    </ClCompile>
+    <ClCompile Include="man_on_the_silver_mountain.cpp">
+      <Filter>源文件\plans</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
